@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/miguefuentes97/EGC-12-19-migfuecal.git .
+RUN git clone https://github.com/jailucloz/Examen-diciembre-2020.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
